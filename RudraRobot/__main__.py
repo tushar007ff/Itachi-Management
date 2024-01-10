@@ -28,7 +28,6 @@ from telegram.ext import (
     MessageHandler,
     filters,
 )
-
 from telegram.utils.helpers import escape_markdown
 
 import Database.sql.users_sql as sql
