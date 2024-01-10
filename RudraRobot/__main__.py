@@ -17,10 +17,10 @@ from telegram import ParseMode
 from telegram.error import (
     BadRequest,
     ChatMigrated,
-    Unauthorized, 
     NetworkError,
     TelegramError,
     TimedOut,
+    Unauthorized,
 )
 from telegram.ext import (
     ApplicationHandlerStop,
