@@ -29,6 +29,8 @@ from telegram.ext import (
     filters,
 )
 
+from telegram.utils.helpers import escape_markdown
+
 import Database.sql.users_sql as sql
 from Infamous.pmstart import *
 from RudraRobot import (
