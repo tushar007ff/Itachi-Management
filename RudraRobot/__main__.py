@@ -75,7 +75,6 @@ PM_START_TEX = "✨ *ʜᴇʟʟᴏ* `{}` . . ."
 PM_START_TEXT = """ 
 ✨ *ɪ ᴀᴍ ʜɪɴᴀᴛᴀ, ᴀ ɢᴇɴꜱʜɪɴ ɪᴍᴘᴀᴄᴛ ᴛʜᴇᴍᴇᴅ ʀᴏʙᴏᴛ ᴡʜɪᴄʜ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ᴀɴᴅ ꜱᴇᴄᴜʀᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ʜᴜɢᴇ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ*
 ─────────────────
-   f"*➻ ᴜᴩᴛɪᴍᴇ »* {uptime}"
    *➻ ᴜsᴇʀs »* {}
    *➻ ᴄʜᴀᴛs »* {}
 ─────────────────
@@ -206,6 +205,7 @@ def start(update: Update, context: CallbackContext):
 
             x=update.effective_message.reply_sticker(
                 "CAACAgUAAx0Ca3d0mwABBNMhZZ8iKPEml7yvpioW7u4ZWA7cBmAAAmoJAALC9nFW0xoy6QU5nkseBA")
+            time.sleep(2.0)
             x.delete()
             usr = update.effective_user
             lol = update.effective_message.reply_text(
