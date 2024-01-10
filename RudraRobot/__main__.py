@@ -28,7 +28,6 @@ from telegram.ext import (
     MessageHandler,
     filters,
 )
-from telegram.helpers import escape_markdown
 
 import Database.sql.users_sql as sql
 from Infamous.pmstart import *
