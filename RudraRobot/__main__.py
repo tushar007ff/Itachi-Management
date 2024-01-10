@@ -31,7 +31,7 @@ from telegram.ext import (
 from telegram.utils.helpers import escape_markdown
 
 import RudraRobot.modules.no_sql.users_db as sql
-from Infamous.pmstart import *
+from RudraRobot.pmstart import *
 from RudraRobot import (
     BOT_NAME,
     LOGGER,
