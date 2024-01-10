@@ -13,7 +13,7 @@ import pyrogram
 import telegram
 import telethon
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
-from telegram.constants import ParseMode
+from telegram import ParseMode
 from telegram.error import (
     BadRequest,
     ChatMigrated,
