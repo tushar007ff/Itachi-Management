@@ -34,16 +34,17 @@ import RudraRobot.modules.no_sql.users_db as sql
 from RudraRobot.pmstart import *
 from RudraRobot import (
     BOT_NAME,
+    BOT_USERNAME,
     LOGGER,
     OWNER_ID,
+    START_IMG,
     SUPPORT_CHAT,
     TOKEN,
     StartTime,
-    app,
     dispatcher,
-    function,
-    loop,
-    tbot,
+    pbot,
+    telethn,
+    updater,
 )
 from RudraRobot.plugins import ALL_MODULES
 from RudraRobot.plugins.helper_funcs.chat_status import is_user_admin
