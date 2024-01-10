@@ -23,10 +23,8 @@ from telegram.error import (
     Unauthorized,
 )
 from telegram.ext import (
-    ApplicationHandlerStop,
     CallbackQueryHandler,
     CommandHandler,
-    ContextTypes,
     MessageHandler,
     filters,
 )
