@@ -69,13 +69,10 @@ def get_readable_time(seconds: int) -> str:
     ping_time += ":".join(time_list)
 
     return ping_time
-PM_START_TEX = """
-ʜᴇʟʟᴏ `{}`, ʜᴏᴡ ᴀʀᴇ ʏᴏᴜ \nᴡᴀɪᴛ ᴀ ᴍᴏᴍᴇɴᴛ ʙʀᴏ . . . 
-"""
+PM_START_TEX = "✨ *ʜᴇʟʟᴏ* `{}` . . ."
 
 
 PM_START_TEXT = """ 
-*ʜᴇʏ* {} , 🥀
 ✨ *ɪ ᴀᴍ ʜɪɴᴀᴛᴀ, ᴀ ɢᴇɴꜱʜɪɴ ɪᴍᴘᴀᴄᴛ ᴛʜᴇᴍᴇᴅ ʀᴏʙᴏᴛ ᴡʜɪᴄʜ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ᴀɴᴅ ꜱᴇᴄᴜʀᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ʜᴜɢᴇ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ*
 ─────────────────
    *➻ ᴜsᴇʀs »* {}
@@ -213,13 +210,13 @@ def start(update: Update, context: CallbackContext):
             lol = update.effective_message.reply_text(
                 PM_START_TEX.format(usr.first_name), parse_mode=ParseMode.MARKDOWN
             )
-            time.sleep(0.9)
+            time.sleep(5.0)
             lol.edit_text("❤")
-            time.sleep(0.9)
+            time.sleep(5.0)
             lol.edit_text("⚡")
-            time.sleep(0.9)
+            time.sleep(5.0)
             lol.edit_text("ꜱᴛᴀʀᴛɪɴɢ... ")
-            time.sleep(0.9)
+            time.sleep(5.0)
             lol.delete()
 
             update.effective_message.reply_photo(START_IMG,PM_START_TEXT.format(escape_markdown(first_name), BOT_NAME,sql.num_users(),sql.num_chats()),
