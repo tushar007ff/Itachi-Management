@@ -46,9 +46,9 @@ from RudraRobot import (
     telethn,
     updater,
 )
-from RudraRobot.plugins import ALL_MODULES
-from RudraRobot.plugins.helper_funcs.chat_status import is_user_admin
-from RudraRobot.plugins.helper_funcs.misc import paginate_modules
+from RudraRobot.modules import ALL_MODULES
+from RudraRobot.modules.helper_funcs.chat_status import is_user_admin
+from RudraRobot.modules.helper_funcs.misc import paginate_modules
 
 PYTHON_VERSION = python_version()
 PTB_VERSION = telegram.__version__
