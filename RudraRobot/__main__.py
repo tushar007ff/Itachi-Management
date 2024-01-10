@@ -207,19 +207,19 @@ def start(update: Update, context: CallbackContext):
             first_name = update.effective_user.first_name
 
             x=update.effective_message.reply_sticker(
-                "CAACAgUAAx0Ca3d0mwABAnr-ZU5YLsGsaa41kQo0XpBLuyCeu7MAAhoIAAL6yEBXFfvJsHY5e9QzBA")
+                "CAACAgUAAx0Ca3d0mwABBNMhZZ8iKPEml7yvpioW7u4ZWA7cBmAAAmoJAALC9nFW0xoy6QU5nkseBA")
             x.delete()
             usr = update.effective_user
             lol = update.effective_message.reply_text(
                 PM_START_TEX.format(usr.first_name), parse_mode=ParseMode.MARKDOWN
             )
-            time.sleep(0.4)
+            time.sleep(0.9)
             lol.edit_text("❤")
-            time.sleep(0.5)
+            time.sleep(0.9)
             lol.edit_text("⚡")
-            time.sleep(0.3)
+            time.sleep(0.9)
             lol.edit_text("ꜱᴛᴀʀᴛɪɴɢ... ")
-            time.sleep(0.4)
+            time.sleep(0.9)
             lol.delete()
 
             update.effective_message.reply_photo(START_IMG,PM_START_TEXT.format(escape_markdown(first_name), BOT_NAME,sql.num_users(),sql.num_chats()),
