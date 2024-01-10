@@ -17,7 +17,7 @@ from telegram import ParseMode
 from telegram.error import (
     BadRequest,
     ChatMigrated,
-    Forbidden,
+    Unauthorized, 
     NetworkError,
     TelegramError,
     TimedOut,
