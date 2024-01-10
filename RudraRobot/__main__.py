@@ -76,26 +76,6 @@ PM_START_TEX = """
 
 PM_START_TEXT = "✨ *ʜᴇʟʟᴏ* `{}` . . ."
 
-buttons = [
-    [
-        InlineKeyboardButton(text="🏡", callback_data="daxxback"),
-        InlineKeyboardButton(text="🛡️", callback_data="daxx"),
-        InlineKeyboardButton(text="💳", callback_data="source_"),
-        InlineKeyboardButton(text="🧑‍💻", url=f"tg://user?id={OWNER_ID}"),
-        InlineKeyboardButton(text="🖥️", callback_data="Main_help"),
-     ],
-    [
-        InlineKeyboardButton(
-            text="Aᴅᴅ Mᴇ ᴛᴏ Yᴏᴜʀ Gʀᴏᴜᴘ",
-            url=f"https://t.me/{dispatcher.bot.username}?startgroup=true",
-        ),
-    ],
-    [
-        InlineKeyboardButton(text="📚 ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs", callback_data="Main_help"),
-    ],
-
-
-]
 
 HELP_STRINGS = f"""
 » *{BOT_NAME}  ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴇsᴄʀɪᴘᴛɪᴏɴ ᴀʙᴏᴜᴛ sᴘᴇᴄɪғɪᴄs ᴄᴏᴍᴍᴀɴᴅ*"""
@@ -214,6 +194,38 @@ def start(update: Update, context: CallbackContext):
             lol.edit_text("ꜱᴛᴀʀᴛɪɴɢ... ")
             time.sleep(0.4)
             lol.delete()
+
+PM_START_TEXT = """ 
+*ʜᴇʏ* {} , 🥀
+*๏ ɪ'ᴍ {} ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘs!
+ʜɪᴛ ʜᴇʟᴘ ᴛᴏ ғɪɴᴅ ᴏᴜᴛ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ ɪɴ ᴍʏ ғᴜʟʟ ᴘᴏᴛᴇɴᴛɪᴀʟ!*
+➻ *ᴛʜᴇ ᴍᴏsᴛ ᴩᴏᴡᴇʀғᴜʟ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴩ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ  ➕ ᴍᴜsɪᴄ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴀɴᴅ ɪ ʜᴀᴠᴇ sᴏᴍᴇ ᴀᴡᴇsᴏᴍᴇ ᴀɴᴅ ᴜsᴇғᴜʟ ғᴇᴀᴛᴜʀᴇs.*
+─────────────────
+   *➻ ᴜsᴇʀs »* {}
+   *➻ ᴄʜᴀᴛs »* {}
+─────────────────
+"""
+
+buttons = [
+    [
+        InlineKeyboardButton(text="🏡", callback_data="daxxback"),
+        InlineKeyboardButton(text="🛡️", callback_data="daxx"),
+        InlineKeyboardButton(text="💳", callback_data="source_"),
+        InlineKeyboardButton(text="🧑‍💻", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="🖥️", callback_data="Main_help"),
+     ],
+    [
+        InlineKeyboardButton(
+            text="Aᴅᴅ Mᴇ ᴛᴏ Yᴏᴜʀ Gʀᴏᴜᴘ",
+            url=f"https://t.me/{dispatcher.bot.username}?startgroup=true",
+        ),
+    ],
+    [
+        InlineKeyboardButton(text="📚 ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs", callback_data="Main_help"),
+    ],
+
+
+]
 
             update.effective_message.reply_photo(START_IMG,PM_START_TEXT.format(escape_markdown(first_name), BOT_NAME,sql.num_users(),sql.num_chats()),
                 reply_markup=InlineKeyboardMarkup(buttons),
