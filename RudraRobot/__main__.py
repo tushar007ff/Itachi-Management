@@ -210,13 +210,13 @@ def start(update: Update, context: CallbackContext):
             lol = update.effective_message.reply_text(
                 PM_START_TEX.format(usr.first_name), parse_mode=ParseMode.MARKDOWN
             )
-            time.sleep(5.0)
+            time.sleep(2.0)
             lol.edit_text("❤")
-            time.sleep(5.0)
+            time.sleep(2.0)
             lol.edit_text("⚡")
-            time.sleep(5.0)
+            time.sleep(2.0)
             lol.edit_text("ꜱᴛᴀʀᴛɪɴɢ... ")
-            time.sleep(5.0)
+            time.sleep(2.0)
             lol.delete()
 
             update.effective_message.reply_photo(START_IMG,PM_START_TEXT.format(escape_markdown(first_name), BOT_NAME,sql.num_users(),sql.num_chats()),
