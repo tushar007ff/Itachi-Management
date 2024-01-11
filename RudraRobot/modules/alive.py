@@ -19,8 +19,8 @@ PHOTO = [
 
 Rudra = [
     [
-        InlineKeyboardButton(text="ʀᴜᴅʀᴀ", user_id=OWNER_ID),
-        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="𝐎ᴡɴᴇʀ", user_id=OWNER_ID),
+        InlineKeyboardButton(text="𝐒ᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [
         InlineKeyboardButton(
