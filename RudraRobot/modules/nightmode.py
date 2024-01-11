@@ -65,7 +65,7 @@ openhehe = ChatBannedRights(
     change_info=False,
 )
 button_row = [
-        [Button.url('Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ', f'https://t.me/{BOT_USERNAME}?startgroup=new')]
+        [Button.url('🌺•─╼⃝𖠁𝐀𝙳𝙳 ◈ 𝐌𝙴 ◈ 𝐁𝙰𝙱𝚈𖠁⃝╾─•🌺', f'https://t.me/{BOT_USERNAME}?startgroup=new')]
     ]
 @register(pattern="^/nightmode")
 async def close_ws(event):
