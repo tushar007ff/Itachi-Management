@@ -446,15 +446,7 @@ def RudraRobot_Main_Callback(update: Update, context: CallbackContext):
                         InlineKeyboardButton(text="📕 Mᴀɴᴀɢᴇᴍᴇɴᴛ", callback_data="help_back"),
                         InlineKeyboardButton(text="Mᴜsɪᴄ 🎧", callback_data="Music_")
                     ],
-                    [
-                        InlineKeyboardButton(text="💁 CC Cʜᴇᴄᴋᴇʀ Tᴏᴏʟs ", callback_data="basic_help"),
-                        InlineKeyboardButton(text="SM Dᴏᴡɴʟᴏᴅᴇʀ 📱", callback_data="expert_help")
-                    ],
-                    [
-                        InlineKeyboardButton(text="🍹 Aᴅᴠᴀɴᴄᴇ", callback_data="advance_help"),
-                        InlineKeyboardButton(text="Dᴏɴᴀᴛɪᴏɴ 🎉", callback_data="donation_help") 
-                    ],
-                    [InlineKeyboardButton(text="• Hᴏᴍᴇ •", callback_data="rudraback")]
+                    [InlineKeyboardButton(text="• Bᴀᴄᴋ •", callback_data="rudraback")]
                 ]
             ),
         )
