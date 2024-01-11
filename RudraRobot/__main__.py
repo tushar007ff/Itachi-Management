@@ -375,13 +375,6 @@ def rudraabout_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-        InlineKeyboardButton(text="🏡", callback_data="rudraback"),
-        InlineKeyboardButton(text="🛡️", callback_data="rudra"),
-        InlineKeyboardButton(text="💳", callback_data="source_"),
-        InlineKeyboardButton(text="🧑‍💻", url=f"tg://user?id={OWNER_ID}"),
-        InlineKeyboardButton(text="🖥️", callback_data="Main_help"),
-     ],
-                    [
                         InlineKeyboardButton(
                             text="🚩sᴜᴩᴩᴏʀᴛ", callback_data="rudrasupport"
                         ),
@@ -410,13 +403,6 @@ def rudraabout_callback(update: Update, context: CallbackContext):
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [
-        InlineKeyboardButton(text="🏡", callback_data="rudraback"),
-        InlineKeyboardButton(text="🛡️", callback_data="rudra"),
-        InlineKeyboardButton(text="💳", callback_data="source_"),
-        InlineKeyboardButton(text="🧑‍💻", url=f"tg://user?id={OWNER_ID}"),
-        InlineKeyboardButton(text="🖥️", callback_data="Main_help"),
-     ],
                     [
                         InlineKeyboardButton(
                             text="🏡 sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"
@@ -593,13 +579,6 @@ Yᴏᴜ ᴄᴀɴ ʜᴇʟᴘ ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴡɪᴛʜ 
 
             reply_markup=InlineKeyboardMarkup(
                 [ [
-        InlineKeyboardButton(text="🏡", callback_data="rudraback"),
-        InlineKeyboardButton(text="🛡️", callback_data="rudra"),
-        InlineKeyboardButton(text="💳", callback_data="source_"),
-        InlineKeyboardButton(text="🧑‍💻", url=f"tg://user?id={OWNER_ID}"),
-        InlineKeyboardButton(text="🖥️", callback_data="Main_help"),
-     ],
-                    [
                         InlineKeyboardButton(text="• Dᴏɴᴀᴛᴇ •", url="https://t.me/ALLTYPECC/1578"),InlineKeyboardButton(text="• sᴜᴘᴘᴏʀᴛ •", callback_data="rudrasupport")
                     ]
                 ]
@@ -662,13 +641,6 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [
-        InlineKeyboardButton(text="🏡", callback_data="rudraback"),
-        InlineKeyboardButton(text="🛡️", callback_data="rudra"),
-        InlineKeyboardButton(text="💳", callback_data="source_"),
-        InlineKeyboardButton(text="🧑‍💻", url=f"tg://user?id={OWNER_ID}"),
-        InlineKeyboardButton(text="🖥️", callback_data="Main_help"),
-     ],
                     [
                         InlineKeyboardButton(
                             text="⍟ ᴀᴅᴍɪɴ ⍟", callback_data="Music_admin"
