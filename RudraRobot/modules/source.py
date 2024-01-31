@@ -9,7 +9,7 @@ from telethon import __version__ as s
 from RudraRobot import OWNER_ID, dispatcher
 from RudraRobot import pbot as client
 
-Rudra = "https://graph.org/file/54b51c0a31729b1ac52dc.jpg"
+Rudra = "https://telegra.ph/file/34fe3313bab196955b657.jpg"
 
 
 @client.on_message(filters.command(["repo", "source"]))
@@ -33,7 +33,7 @@ async def repo(client, message):
                         "• ᴏᴡɴᴇʀ ",user_id=OWNER_ID
                     ),
                     InlineKeyboardButton(
-                            text="sᴏᴜʀᴄᴇ", url=f"https://t.me/RUDRA_JAAT_BIO"
+                            text="sᴏᴜʀᴄᴇ", url=f"https://t.me/hjvnihvjkbv"
                         ),
                 ]
             ]
