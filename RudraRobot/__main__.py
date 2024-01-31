@@ -1041,7 +1041,7 @@ def main():
                     [
                         InlineKeyboardButton(
                             text="➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ➕",
-                            url="https://t.me/YumikooBot?startgroup=true"
+                            url="https://t.me/Mei_pro_robot?startgroup=true"
                             )
                        ]
                 ]
