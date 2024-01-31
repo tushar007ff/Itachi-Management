@@ -28,7 +28,7 @@ ALIVE_ANIMATION = [
 
 FIRST_PART_TEXT = "✨ *ʜᴇʟʟᴏ* `{}` . . ."
 
-PM_START_TEXT = "✨ *ɪ ᴀᴍ ʜɪɴᴀᴛᴀ, ᴀ ɢᴇɴꜱʜɪɴ ɪᴍᴘᴀᴄᴛ ᴛʜᴇᴍᴇᴅ ʀᴏʙᴏᴛ ᴡʜɪᴄʜ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ᴀɴᴅ ꜱᴇᴄᴜʀᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ʜᴜɢᴇ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ*"
+PM_START_TEXT = "✨ *ɪ ᴀᴍ ᴍᴇɪ, ᴀ ɢᴇɴꜱʜɪɴ ɪᴍᴘᴀᴄᴛ ᴛʜᴇᴍᴇᴅ ʀᴏʙᴏᴛ ᴡʜɪᴄʜ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ᴀɴᴅ ꜱᴇᴄᴜʀᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ʜᴜɢᴇ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ*"
 
 START_BTN = [
     [
@@ -65,8 +65,8 @@ GROUP_START_BTN = [
 
 ALIVE_BTN = [
     [
-        ib(text="UPDATES", url="https://t.me/RUDRA_JAAT_BIO"),
-        ib(text="SUPPORT", url="https://t.me/RUDRA_JAAT_BIO"),
+        ib(text="UPDATES", url="https://t.me/mei_support"),
+        ib(text="SUPPORT", url="https://t.me/Mei_pro_robot"),
     ],
     [
         ib(
@@ -77,7 +77,7 @@ ALIVE_BTN = [
 ]
 
 HELP_STRINGS = """
-🫧 *˹ʜɪɴᴀᴛᴀ˼ ✘ ˹ᴍᴜsɪᴄ˼ ♪ ⁽ᴶᴬᴬᵀ⁾* 🫧
+🫧 *˹ᴍᴇɪ˼ ✘ ˹ᴍᴜsɪᴄ˼ ♪ ⁽ᴶᴬᴬᵀ⁾* 🫧
 
 ☉ *Here, you will find a list of all the available commands.*
 
