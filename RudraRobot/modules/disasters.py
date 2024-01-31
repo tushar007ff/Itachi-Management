@@ -537,7 +537,7 @@ __help__ = f"""
  ❍ /tigers *:* ʟɪsᴛs ᴀʟʟ ᴛɪɢᴇʀs ᴅɪsᴀsᴛᴇʀs
  ❍ /wolves *:* ʟɪsᴛs ᴀʟʟ ᴡᴏʟғ ᴅɪsᴀsᴛᴇʀs
  ❍ /devlist *:* ʟɪsᴛs ᴀʟʟ ʜᴇʀᴏ ᴀssᴏᴄɪᴀᴛɪᴏɴ ᴍᴇᴍʙᴇʀs
- ❍ /addsudo  *:* ᴀᴅᴅs ᴀ ᴜsᴇʀ ᴛᴏ ᴅʀᴀɢᴏɴ
+ ❍ /addgod  *:* ᴀᴅᴅs ᴀ ᴜsᴇʀ ᴛᴏ ᴅʀᴀɢᴏɴ
  ❍ /adddemon *:* ᴀᴅᴅs ᴀ ᴜsᴇʀ ᴛᴏ ᴅᴇᴍᴏɴ
  ❍ /addtiger *:* ᴀᴅᴅs ᴀ ᴜsᴇʀ ᴛᴏ ᴛɪɢᴇʀ
  ❍ /addwolf*:* ᴀᴅᴅs ᴀ ᴜsᴇʀ ᴛᴏ ᴡᴏʟғ
