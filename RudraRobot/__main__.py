@@ -206,7 +206,7 @@ def start(update: Update, context: CallbackContext):
             lol = update.effective_message.reply_text(
                 PM_START_TEX.format(usr.first_name), parse_mode=ParseMode.MARKDOWN
             )
-            time.sleep(1.0)
+            time.sleep(0.9)
             lol.edit_text("❤")
             time.sleep(0.2)
             lol.edit_text("⚡")
