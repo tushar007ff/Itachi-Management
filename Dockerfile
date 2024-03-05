@@ -64,11 +64,11 @@ RUN apt update && apt upgrade -y && \
 # Pypi package Repo upgrade
 RUN pip3 install --upgrade pip setuptools
 
-RUN git clone https://github.com/RUDRA-JAAT/Rudra-Management /root/RudraRobot
-WORKDIR /root/RudraRobot
+RUN git clone https://github.com/RUDRA-JAAT/Rudra-Management /root/ItachiRobot
+WORKDIR /root/ItachiRobot
 
-#Copy config file to /root/RudraRobot/RudraRobot
-COPY ./RudraRobot/config.py ./RudraRobot/config.py* /root/RudraRobot/RudraRobot/
+#Copy config file to /root/ItachiRobot/ItachiRobot
+COPY ./ItachiRobot/config.py ./ItachiRobot/config.py* /root/ItachiRobot/ItachiRobot/
 
 ENV PATH="/home/bot/bin:$PATH"
 
@@ -76,4 +76,4 @@ ENV PATH="/home/bot/bin:$PATH"
 RUN pip3 install -U -r requirements.txt
 
 # Starting Worker
-CMD ["python3","-m","RudraRobot"]
+CMD ["python3","-m","ItachiRobot"]
